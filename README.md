@@ -5,8 +5,8 @@ Every time we receive a message on the queue, the callback method will run.
 ## Getting Started
 This Microservice is a simple Spring-Boot application with a single configuration file in form of application.properties
 This microservice has two parts: 
-1. receive the message
-2. expose them as RESTFUL endpoints for Webfront end polling to display the GPX coordinates through GoogleMAP API
+1. Receive the message from the Message Broker.
+2. Expose them as RESTFUL endpoints for Web front-end by polling, to display the GPX coordinates through GoogleMAP API.
 
 ### Prerequisites
 ```
